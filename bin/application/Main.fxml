@@ -30,7 +30,7 @@
                   </VBox>
                </children>
             </HBox>
-            <FlowPane fx:id="thankyouPane" alignment="CENTER" prefHeight="200.0" prefWidth="200.0" StackPane.alignment="CENTER">
+            <FlowPane fx:id="thankyouPane" alignment="CENTER" onMouseClicked="#onClose" prefHeight="200.0" prefWidth="200.0" StackPane.alignment="CENTER">
                <children>
                   <Label text="ありがとうございました。" />
                </children>
